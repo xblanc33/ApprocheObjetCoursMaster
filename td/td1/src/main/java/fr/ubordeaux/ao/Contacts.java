@@ -32,6 +32,7 @@ public class Contacts {
             if (i >= to) {
                 return result;
             }
+            i++;
         }
         return result;
     }
