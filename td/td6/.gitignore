@@ -1,0 +1,13 @@
+.settings/
+release.properties
+.project
+.classpath
+build/
+gradle/
+bin/
+gradlew.bat
+gradlew
+.vscode/
+.gradle/
+classes/fr/
+svg.html
