@@ -3,10 +3,10 @@ package fr.ubordeaux.ao;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Contacts {
+public class ContactSet {
     private Set<Contact> contacts;
 
-    public Contacts() {
+    public ContactSet() {
         contacts = new HashSet<Contact>();
     }
 
@@ -22,7 +22,7 @@ public class Contacts {
         return contacts.size();
     }
 
-    public Set<Contact> getContacts(int from, int to) {
+    public Set<Contact> getContact(int from, int to) {
         Set<Contact> result = new HashSet<Contact>();
         int i = 0;
         for (Contact contact : contacts) {

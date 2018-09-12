@@ -11,15 +11,15 @@ public class TestContacts {
     @Test
     public void testContacts() {
 
-        Contacts contacts = new Contacts();
+        ContactSet contactSet = new ContactSet();
 
         for (int i = 0 ; i < MAX ; i++) {
             Town talence = new Town("Talence", 33405);
             Address address = new Address(351, "Cours de la libération", talence);
             Contact newContact = new Contact("John", "Do", address);
-            contacts.addContact(newContact);
+            contactSet.addContact(newContact);
         }
-        assertEquals(MAX, contacts.size());
+        assertEquals(MAX, contactSet.size());
 
     }
 
