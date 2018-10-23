@@ -1,15 +1,13 @@
 # TD8
 
-Ce TD reprend le code du TD7. Il a pour objectif de mettre en place une couche UI Web.
+Ce TD reprend le code du TD7. Il a pour objectif de mettre en place un lien vers une base de données.
 
 ## Consignes
 
 Les modifications que vous devez apporter au code doivent être compilées (directement en utilisant javac ou gradle).
 
-## Socket UI
+## Base de donnée
 
-Mettez en place un serveur de socket qui propose l'interface UI textuelle.
+Mettez en place une infrastructure qui sauvegarde les catalogues dans une base de données.
 
-## Multi-thread
 
-Faites en sorte que ce serveur puisse gérer plusieurs utilisateur simultanément.
