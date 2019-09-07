@@ -7,9 +7,12 @@ Même s'il exploite le langage Java, les concepts présentés sont valides pour 
 ## Intervenants
 
 * Xavier Blanc (Chargé de cours)
-* Frédérique Carrere (Chargé de TD)
-* Lionel Clément (Chargé de TD)
-* Arthur Chevalier (Chargé de TD)
+
+* Frédérique Carrere (Chargé de TD - Groupe1 - Jeudi de 14h00 à 16h00)
+* Olivier Baudon (Chargé de TD - Groupe2 - Mercredi de 8h00 à 10h00)
+* Mohamed Oumaziz (Chargé de TD - Groupe3 - Lundi de 16h15 à 18h15)
+* Lionel Clément (Chargé de TD  - Groupe4 - Mardi de 10h15 à 12h15)
+* Arthur Chevalier (Chargé de TD - Groupe5 - Mardi de 8h00 à 10h00)
 
 ## Sources
 
@@ -19,14 +22,6 @@ Pour suivre les TD, vous devez cloner ce dépôt.
 ## Sujets des TDs
 
 * [TD1](td/td1/)
-* [TD2](td/td2/)
-* [TD3](td/td3/)
-* [TD4](td/td4/)
-* [TD5](td/td5/)
-* [TD6](td/td6/)
-* [TD7](td/td7/)
-* [TD8](td/td8/)
-* [TD9](td/td9/)
   
 ## Une mise en oeuvre pédagogique des concepts du DDD
 

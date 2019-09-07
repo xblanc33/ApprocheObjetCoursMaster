@@ -21,19 +21,28 @@ En utilisant Gradle, compiler le code du TD1
 
 En utilisant Gradle, exécuter le test du TD1
 
-## Rôle des classes (Architecture DDD)
+## Rôle des classes
 
-Regardez le code du TD1. Celui-ci représente une application de gestion de contacts. Précisez le rôle (value, entity, service, aggregate) de chaque classe en vous aidant du tableau suivant.
+Regardez le code du TD1. Celui-ci représente une application de gestion de contacts.
 
-| Classe de l'objet | Value ? | Entity ? | Service ? | Aggregate ? |
-| ------------------|---------|----------|-----------|-------------|
-| Address           |         |          |           |             |
-| Contact           |         |          |           |             |
-| Mail              |         |          |           |             |
-| PhoneNumber       |         |          |           |             |
-| Town              |         |          |           |             |
+Identifiez pour chaque classe :
+* l'état des objets instances des classe (l'état est défini par les propriétés des classe).
+  * Précisez si l'état est immuable ou s'il peut changer dans le temps
+* les traitements des objets instances de la classes (ces traiteements sont définis par les méthodes accéssibles des classes)
+  * Précisez les traitement qui changent l'état, ceux qui ne changent pas l'état, ceux qui dépendent de l'état.
 
-La classe Contacts contient un ensemble de contact, c'est un repository.
+Pensez-vous qu'on puisse instancier deux objets décrivant la même ville (voir code suivant) ?
+
+```java
+Town town1 = new Town("Talence", 33400);
+Town town2 = new Town("Talence", 33400);
+```
+
+Que valent les égalités suivantes ?
+```java
+boolean eg1 = (town1 == town2);
+boolean eg2 = town1.equals(town2);
+```
 
 ## Objets et Machine Virtuelle
 
@@ -93,10 +102,17 @@ Avec un navigateur web (Chrome), il est possible d'ouvrir la page **http://local
 
 ## Concevoir un service (optionnel)
 
-Ajoutez un service qui permet de chercher un contact dans votre liste à partir d'un nom ou d'un prénom (on entre une chaîne de charactères et on obtient les contacts dont les noms ou les prénoms ressemblent très fortement à cette chaîne de charactères).
+Ajoutez une nouvelle classe (SearchEngine) qui propose des méthode permettant de chercher un contact dans votre liste à partir d'un nom ou d'un prénom (on entre une chaîne de charactères et on obtient les contacts dont les noms ou les prénoms ressemblent très fortement à cette chaîne de charactères).
+
+Précisez l'état des objets instances de cette classe.
+Serait-il intéressant d'avoir plusieurs instances de cette classe ?
 
 ## Concevoir un dépôt (optionnel)
 
-Un dépôt (repository) contient un ensemble de Value Object, d'Entity ou d'Aggregate. Développez un nouveau dépôt (Towns.java) qui contient toutes les villes de France.
+Ajouter une nouvelle classe (TownSet.java) qui contient toutes les villes de France.
 
 Vous pouvez utiliser la classe TownFactory qui construit des Town en lisant dans le fichier. Le fichier [villes_france.csv](villes_france.csv) contient la liste de toutes les villes de France.
+
+Précisez l'état des objets instance de cette classe.
+Serait-il intéressant d'avoir plusieurs instance de cette classe ?
+
