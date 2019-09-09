@@ -16,7 +16,7 @@ Même s'il exploite le langage Java, les concepts présentés sont valides pour 
 
 ## Sources
 
-Tous les supports du cous se trouvent sur ce dépôt GitHub.
+Tous les supports du cours se trouvent sur ce dépôt GitHub.
 Pour suivre les TD, vous devez cloner ce dépôt.
 
 ## Sujets des TDs
