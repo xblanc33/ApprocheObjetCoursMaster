@@ -11,6 +11,10 @@ Les modifications que vous devez apporter au code doivent être compilées (dire
 
 ## Test Unitaire
 
+Le code fourni représente la gestion d'un catalogue. L'interface **Catalog** représente le catalogue qui contient les références. La classe **Reference** représente les références contenues dans le catalogue.
+Dans le package **infrastructure.inmemory** la classe **CatalogImpl** implémtent l'interface **Catalog** et permet de stocker le catalog en mémoire.
+
+
 Vous allez changer l'interface Catalog et sa classe d'implantation CatalogImpl pour faire en sorte qu'un catalogue respecte les besoins suivants:
 
 * Un catalogue a un nom (composé uniquement de lettres minuscules, minimum 3 lettres maximum 10 lettres)
