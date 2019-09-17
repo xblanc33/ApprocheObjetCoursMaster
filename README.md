@@ -22,6 +22,9 @@ Pour suivre les TD, vous devez cloner ce dépôt.
 ## Sujets des TDs
 
 * [TD1](td/td1/)
+* [TD2](td/td2/)
+* [TD3](td/td3/)
+* [TD4](td/td4/)
   
 ## Une mise en oeuvre pédagogique des concepts du DDD
 
