@@ -10,3 +10,4 @@ gradlew
 .vscode/
 .gradle/
 classes/fr/
+classes/
