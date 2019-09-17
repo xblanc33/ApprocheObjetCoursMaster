@@ -9,7 +9,7 @@ Les modifications que vous devez apporter au code doivent être compilées (dire
 
 ## SVG
 
-Le code du TD3 est une implantation partielle de [SVG](https://www.w3schools.com/graphics/svg_intro.asp).
+Le code du TD2 est une implantation partielle de [SVG](https://www.w3schools.com/graphics/svg_intro.asp).
 
 * Complétez ce code et proposez une hierarchie de classe réduisant au maximum la redondance de code. Discuter de l'intérêt de votre hierarchie de classe. En outre, maximiser la redondance peut-il nuire à la lecture du code ?
 * Modifiez votre votre pour ajouter un moyen d'afficher à l'écran (ou même de sauvegarder dans un fichier) le format SVG correspondant.
