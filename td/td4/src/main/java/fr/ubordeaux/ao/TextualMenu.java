@@ -1,4 +1,4 @@
-package fr.ubordeaux.ao.ui;
+package fr.ubordeaux.ao;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,11 +6,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.PrintWriter;
-
-import fr.ubordeaux.ao.domain.Catalog;
-import fr.ubordeaux.ao.domain.Reference;
-import fr.ubordeaux.ao.domain.Price;
-import fr.ubordeaux.ao.infrastructure.inmemory.CatalogImpl;
 
 public class TextualMenu {
     private BufferedReader in;

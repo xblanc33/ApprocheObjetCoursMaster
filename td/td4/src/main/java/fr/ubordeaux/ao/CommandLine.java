@@ -1,4 +1,4 @@
-package fr.ubordeaux.ao.ui;
+package fr.ubordeaux.ao;
 
 import java.io.IOException;
 

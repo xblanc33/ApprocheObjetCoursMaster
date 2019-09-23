@@ -1,13 +1,9 @@
-package fr.ubordeaux.ao.infrastructure.inmemory;
+package fr.ubordeaux.ao;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-import fr.ubordeaux.ao.domain.ReferenceManagementException;
-import fr.ubordeaux.ao.domain.Catalog;
-import fr.ubordeaux.ao.domain.Reference;
 
 public class CatalogImpl implements Catalog {
     private Map<String, Reference> references;
