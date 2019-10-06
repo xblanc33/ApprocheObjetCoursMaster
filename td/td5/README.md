@@ -9,7 +9,7 @@ Ce TD a pour objectif de :
 
 Les modifications que vous devez apporter au code doivent être compilées (directement en utilisant javac ou gradle)
 
-## Catalogue de Références, et Panier
+## Références, Panier et ligne de commande
 
 Dans ce TD vous allez développer le catalogue de références ainsi que la gestion d'un panier d'un magasin de eCommerce .
 
