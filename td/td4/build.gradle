@@ -29,7 +29,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.github.spotbugs:spotbugs-gradle-plugin:1.6.4"
+    classpath "gradle.plugin.com.github.spotbugs:gradlePlugin:1.2"
   }
 }
 
@@ -42,7 +42,7 @@ tasks.withType(com.github.spotbugs.SpotBugsTask) {
 }
 
 apply plugin: 'application'
-mainClassName = "fr.ubordeaux.ao.ui.ConsoleMain"
+mainClassName = "fr.ubordeaux.ao.CommandLine"
 
 run {
    standardInput = System.in
