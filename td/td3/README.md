@@ -1,7 +1,7 @@
 # TD3
 Ce TD a pour objectif de :
 
-* Coder une délégation de classes
+* Coder une délégation de classes (couplage faible)
 
 ## Consignes
 

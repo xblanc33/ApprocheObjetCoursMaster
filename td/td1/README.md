@@ -2,12 +2,17 @@
 
 Ce TD a pour objectif de :
 
-* Connaitre et exécuter Javac
-* Connaitre et exécuter Gradle
-* Mieux comprendre les différents types de classe
-* Compter le nombre d'objets présents dans une machine vituelle
-* Concevoir un service (optionel)
-* Concevoir un dépôt (optionel)
+* Vérifier votre connaissance sur les principes de l'objet
+* Vérifier que vous savez compiler et exécuter du code Java (avec Javac et Gradle)
+* Vous montrer qu'on peut compter le nombre d'objets présents dans une machine vituelle
+
+## Connaissance sur les principes de l'objet
+
+Expliquez la relation entre cohérence et couplage.
+
+Une application composée d'un unique gros objet serait-elle fortement ou faiblemen cohérente / couplée ?
+
+Une application composée d'un nombre important de petits objets serait-elle fortement ou faiblemen cohérente / couplée ?
 
 ## Javac & Java
 
@@ -15,34 +20,10 @@ En utilisant Javac, compilez le code situé dans le répertoire td1/src/main/jav
 
 En utilisant Java, exécutez le code que vous venez de compiler.
 
-## Gradle
-
 En utilisant Gradle, compiler le code du TD1
 
 En utilisant Gradle, exécuter le test du TD1
 
-## Rôle des classes
-
-Regardez le code du TD1. Celui-ci représente une application de gestion de contacts.
-
-Identifiez pour chaque classe :
-* l'état des objets instances des classe (l'état est défini par les propriétés des classe).
-  * Précisez si l'état est immuable ou s'il peut changer dans le temps
-* les traitements des objets instances de la classes (ces traiteements sont définis par les méthodes accéssibles des classes)
-  * Précisez les traitement qui changent l'état, ceux qui ne changent pas l'état, ceux qui dépendent de l'état.
-
-Pensez-vous qu'on puisse instancier deux objets décrivant la même ville (voir code suivant) ?
-
-```java
-Town town1 = new Town("Talence", 33400);
-Town town2 = new Town("Talence", 33400);
-```
-
-Que valent les égalités suivantes ?
-```java
-boolean eg1 = (town1 == town2);
-boolean eg2 = town1.equals(town2);
-```
 
 ## Objets et Machine Virtuelle
 
@@ -99,20 +80,4 @@ Avec un navigateur web (Chrome), il est possible d'ouvrir la page **http://local
 * Utilisez **jps**, **jmap** et **jhat** pour compter combien d'objets sont créés lors de l'exécution du TD1.
 * Modifier le code pour qu'il n'y ait qu'un seul objet pour la ville Talence (et non pas 3000).
 * Dans le code, modifiez la valeur de **MAX** pour connaître le nombre maximal d'objets qu'il est possible de loger en mémoire avant de faire crasher la VM
-
-## Concevoir un service (optionnel)
-
-Ajoutez une nouvelle classe (SearchEngine) qui propose des méthode permettant de chercher un contact dans votre liste à partir d'un nom ou d'un prénom (on entre une chaîne de charactères et on obtient les contacts dont les noms ou les prénoms ressemblent très fortement à cette chaîne de charactères).
-
-Précisez l'état des objets instances de cette classe.
-Serait-il intéressant d'avoir plusieurs instances de cette classe ?
-
-## Concevoir un dépôt (optionnel)
-
-Ajouter une nouvelle classe (TownSet.java) qui contient toutes les villes de France.
-
-Vous pouvez utiliser la classe TownFactory qui construit des Town en lisant dans le fichier. Le fichier [villes_france.csv](villes_france.csv) contient la liste de toutes les villes de France.
-
-Précisez l'état des objets instance de cette classe.
-Serait-il intéressant d'avoir plusieurs instance de cette classe ?
 
