@@ -8,7 +8,12 @@ Même s'il exploite le langage Java, les concepts présentés sont valides pour 
 
 * Xavier Blanc (Chargé de cours)
 
-* Frédérique Carrere (Chargé de TD - Groupe1 - Jeudi de 14h00 à 16h00)
+* Group 1 : Mardi 10h15 - Frédérique Carrère
+* Group 2 : Mardi 8h00 - Marie Beurton-Aimar
+* Group 3 : Mercredi 14h00 - Frédérique Carrère 
+* Group 4 : Lundi 16h15 - Lionel Clément 
+* Group 5 : Mercredi 8h00 - Lionel Clément
+
 
 ## Sources
 
