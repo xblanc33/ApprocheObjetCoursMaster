@@ -14,6 +14,11 @@ Même s'il exploite le langage Java, les concepts présentés sont valides pour 
 * Group 4 : Lundi 16h15 - Lionel Clément 
 * Group 5 : Mercredi 8h00 - Lionel Clément
 
+## Vidéo du cours
+
+Vous trouverez les vidéos du cours [ici](https://www.youtube.com/playlist?list=PLuNTRFkYD3u6hdYBgQ4qWbP-vgrKUukSS).
+
+
 
 ## Sources
 
@@ -25,6 +30,7 @@ Pour suivre les TD, vous devez cloner ce dépôt.
 * [TD1](td/td1/)
 * [TD2](td/td2/)
 * [TD3](td/td3/)
+* [TD4](td/td4/)
 * [TD5](td/td5/)
 * [TD6](td/td6/)
   
