@@ -17,6 +17,3 @@ Pour se faire vous allez :
   
 De plus vous allez ajouter deux nouveaux implementations dans la couche infrastructure : `inmemory` et `json`
 
-## Optimisation (Optionnel)
-
-Vous pouvez améliorer votre conception en proposant une mémoire cache et/ou en ne sauvegardant que temporairement dans le fichier.
