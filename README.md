@@ -33,10 +33,8 @@ Pour suivre les TD, vous devez cloner ce dépôt.
 * [TD4](td/td4/)
 * [TD5](td/td5/)
 * [TD6](td/td6/)
+* [TD7](td/td7/)
   
-## Une mise en oeuvre pédagogique des concepts du DDD
-
-Vous pouvez voir [ici](https://github.com/xblanc33/DDD) le code d'une application de eCommerce mettant en oeuvre les concepts du DDD.
 
 ## Références
 
