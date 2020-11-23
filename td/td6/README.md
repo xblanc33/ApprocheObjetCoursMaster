@@ -30,12 +30,12 @@ Construisez les classes nécessaires à la mise en place du pattern command en l
 
 * Soit avec une Gateway qui va dispatcher les commandes vers des Handler
     * Construire la classe abstraite Command. Cette classe doit proposer une méthode abstraite execute()
-    * Construire la commande concrète AddReference. La méthode execute() de cette commande consiste à ajouter une commande dans le catalogue.
+    * Construire la commande concrète AddProduct. La méthode execute() de cette commande consiste à ajouter un produit dans le panier.
     * Construire la classe Handler qui réalisera l'exécution des Command (command.execute()) quand la Gateway lui demandera de le faire (via sa méthode handleCommand(Command command)).
     * Construire la classe Gateway qui recevra les commandes et qui les dispatchera vers les Handlers. 
 * Soit avec des Worker qui vont récupérer les commandes
     * Construire la classe abstraite Command. Cette classe doit proposer une méthode abstraite execute()
-    * Construire la commande concrète AddReference. La méthode execute() de cette commande consiste à ajouter une commande dans le catalogue.
+    * Construire la commande concrète AddProduct. La méthode execute() de cette commande consiste à ajouter un produit dans le panier.
     * Construire la classe Worker (thread) qui réalisera l'exécution des Command (via command.execute()). Cette classe devra avoir une méthode de thread (run() dont le but est d'aller récupérer une commande dans la liste et de l'exécuter) 
     * Construire la classe Commands qui permet d'ajouter des commandes (pushCommand()) et de retirer des commandes (getCommand())
     
